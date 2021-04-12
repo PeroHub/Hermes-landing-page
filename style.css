@@ -29,6 +29,12 @@ nav > ul >li{
     margin: 0 2vw;
     list-style: none;
     font-weight: bold;
+    cursor: pointer;
+}
+
+nav > ul >li:hover {
+    color: blue;
+    transition: 2ms;
 }
 
 nav > ul > li:first-child{
