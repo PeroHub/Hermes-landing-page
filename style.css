@@ -188,6 +188,7 @@ footer span {
     .input-box{
         margin-left: 50px;
         
+        
     }
     .input-group{
         margin-bottom:20px;
@@ -196,9 +197,27 @@ footer span {
         flex-direction:row; 
         
     }
+
+    .form-container 
+    .form-wrapper 
+    .input-group
+    .input-box
+    input {
+        width: 200px;
+        height: 30px;
+    }
+
+    /* .form-container 
+    .form-wrapper 
+    .input-group
+    .input-box{
+        border: 1px solid red;
+        margin-right: 30px;
+    } */
+
     input[type="text"] {
         padding:5px 10px;
-        border:1px solid  #6B6B6B    ;
+        border:1px solid  #6B6B6B ;
         justify-content: space-evenly;
         display: flex;
         color: #736fcf;
@@ -206,7 +225,7 @@ footer span {
         font-style: italic;
         
     }
-    .btn {
+    .form-wrapper .btn {
         text-align: center;
         margin-left: 180px;
         padding: 8px 20px;
@@ -214,18 +233,39 @@ footer span {
         background: #E7332B;
         text-decoration: none;
         color: white;
+        width: 10px;
+        margin-top: 20px;
     }
 
     .form-container {
-        
+        position: relative;
+        top: 100px;
         width: 700px;
-        height: 950px;
+        height: 600px;
         border: 1px solid transparent;
     }
 
     .form-container .form-wrapper {
         width: 615px;
-        height: 900px;
+        height: 600px;
+    }
+
+    .form-container .form-wrapper button {
+        /* padding: 10px; */
+        /* border-radius: 10px; */
+        width: 250px;
+        padding-left: 20px;
+        position: relative;
+        left: 20px;
+    }
+
+    
+
+    @media only screen and (max-width: 600px){
+        .div-wrapper {
+            display: flex;
+            flex-direction: column;
+        }
     }
 
 
