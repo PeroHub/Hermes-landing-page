@@ -67,7 +67,7 @@ color: #000000;
 .home {
     color: #E7332B;
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 600px){
     .nav-wrapper{
         display: flex;
         justify-content: space-between;
@@ -83,13 +83,19 @@ color: #000000;
     .main-wrapper {
         display: flex;
         flex-direction: column;
-        border: 1px solid red;
+        
     }
 
     .main-wrapper
     .hero
     .intro-text h2 {
-        font-size: 30px;
+        font-size: 25px;
+    }
+
+    .main-wrapper
+    .hero
+    .intro-text p {
+        width: 100px;
     }
 
     .form-wrapper
