@@ -22,8 +22,13 @@ body {
     border-bottom: 1px solid transparent;
     box-shadow:  0 0 10px 0 gray;
 }
+
+.nav-wrapper .nav-logo {
+    margin-left: 130px;
+}
 nav > ul {
     display: flex;
+    margin-right: 230px;
 }
 nav > ul >li{
     margin: 0 2vw;
@@ -39,6 +44,10 @@ nav > ul >li:hover {
 
 nav > ul > li:first-child{
     color: #E7332B;
+}
+
+.form-container .form-main {
+    display: flex;
 }
 
 
@@ -76,8 +85,8 @@ color: #000000;
 }
 
 .div-wrapper {
-    display: flex;
-    justify-content: space-evenly;
+    margin-left: 130px;
+    
 
 }
 .hero {
@@ -142,5 +151,81 @@ footer span {
     text-transform: uppercase;
 }
 
+
+.form-container {
+    position: relative;
+    left: 200px;
+    border: 1px solid black;
+}
+
+
+
+    .form-wrapper{
+        overflow:hidden;
+        border-radius:6px;
+        background:#fff;
+        width:500px;
+        max-width:100%;
+        box-shadow: 1px 1px 8px #C8C4C4;
+
+    }
+    .form-wrapper h2{
+        text-align: center;
+        color: #E7332B;
+
+        padding:1rem;
+        
+    }
+
+    form {
+        padding:30px 40px;
+    }
+    .input-group label {
+        margin-bottom: 0px;
+        display: inline-block;
+        font-size: 14px;
+    }
+    .input-box{
+        margin-left: 50px;
+        
+    }
+    .input-group{
+        margin-bottom:20px;
+        width:100px;
+        display:flex;
+        flex-direction:row; 
+        
+    }
+    input[type="text"] {
+        padding:5px 10px;
+        border:1px solid  #6B6B6B    ;
+        justify-content: space-evenly;
+        display: flex;
+        color: #736fcf;
+        font-size:10px;
+        font-style: italic;
+        
+    }
+    .btn {
+        text-align: center;
+        margin-left: 180px;
+        padding: 8px 20px;
+        border-radius: 20px;
+        background: #E7332B;
+        text-decoration: none;
+        color: white;
+    }
+
+    .form-container {
+        
+        width: 700px;
+        height: 950px;
+        border: 1px solid transparent;
+    }
+
+    .form-container .form-wrapper {
+        width: 615px;
+        height: 900px;
+    }
 
 
