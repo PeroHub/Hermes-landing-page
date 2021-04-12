@@ -86,6 +86,24 @@ color: #000000;
         
     }
 
+    .footer-container
+    .papaya {
+        display: block;
+    }
+
+    .footer-container .footer-item h3, p {
+        
+        font-size: 14px;
+        
+    }
+
+    .footer-container
+    .footer-item
+    .mam {
+        position: relative;
+        left: 20px;
+}
+
     .main-wrapper
     .hero
     .intro-text h2 {
@@ -217,25 +235,88 @@ color: #000000;
 }
 
 footer {
-    background-color: #C4C4C4;
-    height: 58px;
-    display: flex;
+    background-color: #E7332B;
+    height: 200px;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     font-size: 18px;
     color: #000;
     font-weight: bold;
+    height: 250px;
+    text-align: center;
+    
 }
 
+.footer p {
+    padding-top: 10px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    background-color: #808080;
+    height: 250px;
+}
+.footer-container .footer-item h3, p {
+    color: #fff;
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+/* @media only screen and (max-width: 600px) {
+    .footer-container
+    .papaya {
+        display: block;
+    }
+
+    .footer-container .footer-item h3, p {
+        
+        font-size: 14px;
+        
+    }
+
+    .footer-container
+    .footer-item
+    .mam {
+        position: relative;
+        left: 20px;
+}
+} */
+
+footer {
+    height: 300px;
+}
+.footer-container
+.footer-item
+.mam {
+    
+    position: relative;
+    right: 110px;
+}
+
+.footer-container
+.footer-item
+.para {
+    padding-top: 10px;
+}
 footer span {
     text-transform: uppercase;
 }
+
 
 
 .form-container {
     position: relative;
     left: 200px;
     border: 1px solid black;
+}
+
+.footer-container .footer-item {
+    margin-top: 20px;
+    
 }
 
 
