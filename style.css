@@ -28,10 +28,10 @@ body {
 }
 nav > ul {
     display: flex;
-    margin-right: 230px;
+    margin-right: 160px;
 }
 nav > ul >li{
-    margin: 0 2vw;
+    margin: 0 20px;
     list-style: none;
     font-weight: bold;
     cursor: pointer;
