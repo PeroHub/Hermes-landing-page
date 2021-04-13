@@ -28,7 +28,7 @@ body {
 }
 nav > ul {
     display: flex;
-    margin-right: 110px;
+    margin-right: 80px;
 }
 nav > ul >li{
     margin: 0 20px;
@@ -120,6 +120,7 @@ color: #000000;
     .input-group
     .input-box input {
         width: 50px;
+        
     }
 
     .main-wrapper
